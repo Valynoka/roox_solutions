@@ -1,0 +1,41 @@
+.users{
+  padding: 20px 32px;
+
+  &__title{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 18px;
+  }
+  &__list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 420px;
+  }
+  &__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px;
+    background-color: #F3F3F3;
+    border-radius: 8px;
+  }
+  &__text{
+    font-size: 11px;
+    margin-bottom: 8px;
+    color: black;
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+  &__attribute{
+    font-size: 11px;
+    color: #A3A3A3;
+    margin-right: 8px;
+  }
+  &__link{
+    color: #4B51EF;
+    font-size: 12px;
+  }
+
+}
